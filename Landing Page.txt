@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carolina Beach Adventure Taxi</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5fbff;
+}
+
+header{
+background:linear-gradient(90deg,#00bcd4,#00e5ff);
+color:white;
+padding:18px;
+text-align:center;
+font-size:26px;
+font-weight:bold;
+}
+
+nav{
+background:#008c9e;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:90px 20px;
+}
+
+.callbtn{
+display:inline-block;
+margin-top:20px;
+background:#ffcc00;
+color:black;
+padding:15px 25px;
+border-radius:10px;
+font-size:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:40px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.calendar{
+background:white;
+border-radius:12px;
+padding:20px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+footer{
+background:#008c9e;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>Carolina Beach Adventure Taxi</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="pricing.html">Rates & Reservations</a>
+<a href="gallery.html">Happily Ever Rides</a>
+</nav>
+
+<div class="hero">
+<h1>Ride the Beach — No Parking Needed</h1>
+<p>Fast golf cart rides anywhere in Carolina Beach</p>
+<a class="callbtn" href="tel:5555555555">
+￼
+ Call or Text 555-555-5555</a>
+</div>
+
+<div class="section">
+<h2>About Our Service</h2>
+<p>
+We provide convenient golf cart transportation across Carolina Beach.
+Perfect for beach days, restaurants, bars, weddings, and late night rides.
+Skip parking and ride stress free.
+</p>
+</div>
+
+<div class="section calendar">
+<h2>Beach Events Calendar</h2>
+
+<p><b>June 10:</b> Live Music at the Boardwalk</p>
+<p><b>June 15:</b> Fireworks Night</p>
+<p><b>June 21:</b> Beach Festival</p>
+
+<p><i>You can edit these anytime — just change the text in this section.</i></p>
+
+</div>
+
+<footer>
+Call or Text Anytime<br>
+Serving Carolina Beach
+</footer>
+
+</body>
+</html>
